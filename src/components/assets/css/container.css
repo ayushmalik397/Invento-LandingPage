@@ -1,0 +1,162 @@
+.container-flex{
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.side {
+    padding: 20px;
+    width: 248px;
+  }
+
+.main {
+   background-color: white;
+   padding: 20px;
+   position: relative;
+}
+
+.filter{
+    width: 46px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.clear{
+    color: #00B16E;
+    width: 37px;
+    height: 20px;
+    font-weight: 600;
+    float: right;
+}
+
+.priceHead{
+    padding-top: 23px;
+    width:33px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.priceBar{
+    position: relative;
+    display: flex;
+}
+
+.min , .max {
+    width: 120px;
+    height: 32px;
+    background-color: white;
+    color: rgb(94, 86, 86);
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid;
+    border-radius: 4px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.faIcon{
+  float: right;
+}
+
+.max{
+    margin-left: 8px;
+}
+
+.min-dropdown-content, .max-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+a{
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+.max:hover .min-dropdown-content{
+  display: block;
+}
+
+.locationHead, .MSRPHead, .conditionHead{
+    padding-top: 32px;
+    width: 150px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.check-container {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  
+  .check-container input:checked ~ .checkmark {
+    background-color: #00B16E;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .check-container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+  .check-container .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+hr{
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+
+
+
+
+
+
+  

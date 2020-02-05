@@ -1,0 +1,53 @@
+.nav{
+    
+    overflow: hidden;
+    height:72px;
+    width: 100%;
+    top:0px;
+    box-shadow: 1px 2px 2px #888888;
+    background-color: white;
+}
+
+.svgLogo{
+    float: left;
+    padding: 24px;
+    margin-left: 104px;
+}
+
+.searchBar{
+    
+    background-color: rgb(238, 240, 245);
+    color: #8A94A6;
+    padding-left: 44px;
+    margin-top: 14px;
+    margin-left: 100px;
+    height: 40px;
+    width: 504px;
+    border: rgb(238, 240, 245);
+    border-radius: 7px;
+}
+
+.button{
+    float: right;
+    margin-top: 14px;
+}
+
+.button1, .button2 {
+    border-radius: 4px;
+    width: 96px;
+    height: 40px;
+}
+
+.button1{
+    background-color: white;
+    color: #00B16E;
+    border: 2px solid;
+}
+
+.button2{
+    background-color: #00B16E;
+    color: white;
+    margin-right: 104px;
+    margin-left: 16px;
+    border: rgb(238, 240, 245);
+}
