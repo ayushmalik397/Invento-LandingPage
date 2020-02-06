@@ -43,7 +43,7 @@ function Main(){
                         </div>
                         <div className="catButton">
                             <button className="viewButton">View</button>
-                            <button className="watchButton">Watch</button>
+                            <button className="watchButton">Watch<FontAwesome.FaStarO className="starIcon"/></button>
                         </div>
                       </div>
                   </div>
@@ -61,7 +61,7 @@ function Main(){
                         </div>
                         <div className="catButton">
                             <button className="viewButton">View</button>
-                            <button className="watchButton">Watch</button>
+                            <button className="watchButton">Watch<FontAwesome.FaStarO className="starIcon"/></button>
                         </div>
                       </div>
                   </div>

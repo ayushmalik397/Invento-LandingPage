@@ -212,6 +212,12 @@
     border: 2px solid rgb(206, 197, 197);
 }
 
+.starIcon{
+    padding-left: 4px;
+    padding-bottom: 5px;
+    color:#F7AF22;
+}
+
 .newListed{
     background-color:rgb(191, 227, 241);
     color: #0081B5;
