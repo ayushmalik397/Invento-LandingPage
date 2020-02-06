@@ -5,5 +5,5 @@
 
 Open `localhost:3000` in your browser to view!
 
-**The App is not responsive at this point. So, size it on `1600 x 1200` to view the appropriate layout.**
+**The App is not responsive at this point. So, view it on `Laptop L -1140px` for the appropriate layout.**
 
